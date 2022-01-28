@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/BCJdevelopment/event-funnel.git"
   },
-  "keywords": ["event", "events", "event-bus"],
+  "keywords": ["event", "events", "bus", "event-bus"],
   "author": "Ben Jett",
   "license": "ISC",
   "bugs": {
