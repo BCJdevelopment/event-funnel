@@ -1,5 +1,6 @@
 # Typescript export
 /lib
+/tests
 
 # Logs
 logs
