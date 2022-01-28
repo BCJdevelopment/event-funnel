@@ -12,7 +12,7 @@ publishEvent("MY_EVENT_NAME", "Hello, World!");
 ```
 
 Expected Output:
-```bash
+```
 Hello, World!
 ```
 
