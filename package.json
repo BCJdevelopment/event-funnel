@@ -1,0 +1,23 @@
+{
+  "name": "event-funnel",
+  "version": "1.0.0",
+  "description": "A super simple event service for listening to and dispatching global events.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCJdevelopment/event-funnel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BCJdevelopment/event-funnel/issues"
+  },
+  "homepage": "https://github.com/BCJdevelopment/event-funnel#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
