@@ -1,8 +1,9 @@
 {
   "name": "event-funnel",
   "version": "1.0.0",
-  "description": "A super simple event service for listening to and dispatching global events.",
+  "description": "A super simple (and dependency free) event service for listening to and dispatching global events.",
   "main": "index.js",
+  "files": ["lib/**/*"],
   "scripts": {
     "build": "tsc"
   },
