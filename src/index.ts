@@ -23,7 +23,7 @@ class EventFunnel {
     createEventListener = (eventName: string, handler: (payload?: any) => void): number => {
         this.listenerId += 1;
         const newListenerObject = {
-            handler,
+            handler: (payload: any) => { setTimeout(handler, 0, payload) },
             id: this.listenerId
         }
 
