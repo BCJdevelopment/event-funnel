@@ -1,20 +1,27 @@
 {
   "name": "event-funnel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple (and dependency free) event service for listening to and dispatching global events.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BCJdevelopment/event-funnel.git"
   },
-  "keywords": ["event", "events", "bus", "event-bus"],
+  "keywords": [
+    "event",
+    "events",
+    "bus",
+    "event-bus"
+  ],
   "author": "Ben Jett",
   "license": "ISC",
   "bugs": {
